@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECOMMERCE</title>
+    <link rel="stylesheet" href="signup.css">
+    <script src="signup.css"></script>
+</head>
+<body>
+    <section class="Signup-complete-details">
+           <section class="signup">
+              <div class="signup-img">
+                <!-- <img src="https://images.unsplash.com/photo-1666626049511-9ee5542ebd55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDIwfDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" width="600" height="600" > -->
+              </div>
+                <div class="signup-details">
+                <h1>SIGN UP</h1>
+                <form  onsubmit="signup(event)">
+                  <input type="name" name="name" placeholder="Name" required/><br><br>
+              
+                <input type="email" name="email" placeholder="Email" required/><br><br>
+
+                <input type="password" name="password" placeholder="confirm Password" required/><br><br>
+                <button id="signup-btn">SIGNUP</button><br>
+
+                <p>Do you have Account?<a href="./login.html" class="login">Please login</a></p>
+                </form>  
+            </div>
+           </section>
+    </section>   
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+    <script src="signup.js"></script>
+</body>
+</html>
